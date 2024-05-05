@@ -1,0 +1,35 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Yashaswini Sharma</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="{% static 'index/index.css' %}" />
+    <style></style>
+  </head>
+  <body>
+    <!-- Your HTML content goes here -->
+    {% include 'menubar.html' %}
+    <br />
+    <img src="{% static 'index/yashaswini.jpg' %}" class="profilePic" />
+    <h1 class="headline">STUDENT & DEVELOPER</h1>
+    <div class="links">
+      <img src="{% static 'index/Google.png' %}" class="pics" />
+      YASHASWINISHARMA460@GMAIL.COM
+
+      <a
+        href="https://www.linkedin.com/in/yashaswini-sharma-85bb6827b/"
+        style="text-decoration: none; color: #6a6a6a"
+        ><img src="{% static 'index/linkedin.jpg' %}" class="pics" />
+        YASHASWINI-SHARMA-85BB6827B
+      </a>
+    </div>
+    <!-- Other HTML elements -->
+  </body>
+</html>

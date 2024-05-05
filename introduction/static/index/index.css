@@ -1,0 +1,70 @@
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  padding-left: 31px;
+  padding-top: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+}
+.name {
+  color: black;
+  text-decoration: none;
+}
+.name::after {
+  content: "";
+  position: absolute;
+  left: 38px;
+  top: 70px; /* Adjust this value to control the distance of the line from the text */
+  width: 94%;
+  height: 1px; /* Adjust this value to control the thickness of the line */
+  background-color: black; /* Adjust this value to control the color of the line */
+}
+.aboutMe {
+  color: #757575;
+  text-decoration: none;
+  position: absolute;
+
+  right: 160px;
+}
+.projects {
+  color: #757575;
+  text-decoration: none;
+  position: absolute;
+
+  right: 60px;
+}
+.profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 200px;
+  border-radius: 50%;
+}
+.headline {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  background: linear-gradient(to top, #0066ff, #00229b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.links {
+  font-family: "Rhodium Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #6a6a6a;
+  text-align: center;
+}
+.pics {
+  padding-top: 5px;
+  width: 20px;
+}
